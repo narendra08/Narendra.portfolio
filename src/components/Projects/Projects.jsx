@@ -13,7 +13,7 @@ export const Projects = () => {
           <div className="project-card">
             <img
               className="project-img"
-              src="../../../public/wms.jpg"
+              src="https://www.sdggroup.com/sites/default/files/inline-images/Supply%20Chain%20Article%20image.jpg"
               alt="Project 1"
             />
             <h3>Workflow Managment System</h3>
@@ -28,7 +28,7 @@ export const Projects = () => {
             </p>
           </div>
           <div className="project-card">
-            <img src="../../../public/hotel.jpg" alt="Project 2" />
+            <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/thepalatin-free-template.jpg" alt="Project 2" />
             <h3>Hotel App</h3>
             <p>
               A hotel website serves as a comprehensive platform for guests to
@@ -41,7 +41,7 @@ export const Projects = () => {
             </p>
           </div>
           <div className="project-card">
-            <img src="../../../public/NGO.jpg" alt="Project 3" />
+            <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/The-Charity-Colorlib-Website-Template.jpg" alt="Project 3" />
             <h3>NGO Website</h3>
             <p>
               An NGO website dedicated to helping children and widows serves as
