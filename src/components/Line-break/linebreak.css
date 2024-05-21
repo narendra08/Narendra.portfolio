@@ -1,0 +1,7 @@
+.BigLineBreak {
+  width: 100%;
+  height: 2px;
+  opacity: 0.5;
+  background-color: rgb(235, 226, 226);
+  padding-left: 50px;
+}

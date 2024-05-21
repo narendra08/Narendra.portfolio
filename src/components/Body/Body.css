@@ -1,0 +1,88 @@
+.body {
+  max-width: 100%;   
+  
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.firstName {
+  color: rgb(169, 31, 31);
+  font-size: 60px;
+  display: flex;
+  gap: 20px;
+}
+.lastName {
+  color: rgb(210, 207, 207);
+}
+.intro1 {
+  color: rgb(210, 207, 207);
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-weight: 100;
+}
+.intro2 {
+  color: rgb(169, 31, 31);
+  font-weight: 100;
+}
+.intro-name{
+    height: 80px;
+}
+.heroImg {
+  margin-top: 130px;
+  background-image: url("./hero3.jpeg");
+  background-repeat: no-repeat;
+  /* background-attachment: scroll; */
+  background-size: contain; /* Ensures the whole image fits within the element */
+  background-position: right top; /* Aligns the image to the right and vertically centered */
+  width: 100%; /* Adjust the width of the container as needed */
+  height: 70vh;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.intro {
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.leetcode,
+.insta,
+.linkedin,
+.whatsapp {
+  color: rgb(148, 146, 146);
+  height: 40px;
+  width: 40px;
+  padding-top: 15px;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), color 0.3s ease;
+}
+
+.leetcode:hover{
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), color 0.3s ease-in-out;
+    transform: scale(1.5);
+    color: white;
+}
+.insta:hover{
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), color 0.3s ease-in-out;
+    transform: scale(1.75);
+    color: white;
+}
+.linkedin:hover{
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), color 0.3s ease-in-out;
+    transform: scale(1.5);
+    color: white;
+
+}
+.whatsapp:hover{
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), color 0.3s ease-in-out;
+    transform: scale(1.5);
+    color: white;
+
+}

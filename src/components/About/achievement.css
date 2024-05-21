@@ -1,0 +1,17 @@
+/* Achievements.css */
+.achievements {
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .achievements ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .achievements li {
+    margin-bottom: 10px;
+  }
+  .edu-head{
+    margin-bottom: 20px;
+  }
